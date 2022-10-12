@@ -1,0 +1,22 @@
+@import "./variables";
+
+// Font
+@mixin montserrat {
+    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+// Mixins
+@mixin flexMix($direction: row, $justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+  
+@mixin backgroundImage($url: "", $bgSize: contain) {
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $bgSize;
+}

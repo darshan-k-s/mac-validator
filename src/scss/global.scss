@@ -1,0 +1,120 @@
+@import "~antd/dist/antd.css";
+
+@import "./mixins";
+
+
+body{
+    overflow-x: hidden !important;
+    h1, h2, h3, h4, h5, h6, p{
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    background-color: $primary;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    font-weight: 400;
+    font-size: 64px;
+    @include montserrat();
+    h1{
+      color: $textPrimary !important;
+        font-size: 100%;
+        font-weight: 300;
+    }
+    h2{
+        color: $textPrimary !important;
+        font-size: 75%;
+        font-weight: 300;
+    }
+    h3{
+        color: $textPrimary !important;
+        font-size: 62.5%;
+        font-weight: 400;
+    }
+    h4{
+        color: $textPrimary !important;
+        font-size: 56.25%;
+        font-weight: 400;
+    }
+    h5{
+        color: $textPrimary !important;
+        font-size: 50%;
+        font-weight: 400;
+    }
+    h6{
+        color: $textPrimary !important;
+        font-size: 37.5%;
+        font-weight: 500;
+    }
+    // p{
+    //     color: $textPrimary !important;
+    //     font-size: 28.125%;
+    //     font-weight: 400;
+    //     letter-spacing: 2px;
+    // }
+    a{
+        color: $textPrimary;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+}
+
+.animated-paragraph{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $foreignAccent;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+//   
+// Scrollbar
+// 
+
+  ::-webkit-scrollbar {
+      display: none;
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
