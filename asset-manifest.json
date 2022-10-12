@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mac-validator/static/css/main.a397d475.css",
+    "main.js": "/mac-validator/static/js/main.fb378db1.js",
+    "index.html": "/mac-validator/index.html",
+    "main.a397d475.css.map": "/mac-validator/static/css/main.a397d475.css.map",
+    "main.fb378db1.js.map": "/mac-validator/static/js/main.fb378db1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a397d475.css",
+    "static/js/main.fb378db1.js"
+  ]
+}
