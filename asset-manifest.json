@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/mac-validator/static/css/main.a397d475.css",
-    "main.js": "/mac-validator/static/js/main.fb378db1.js",
+    "main.css": "/mac-validator/static/css/main.7bf9a07d.css",
+    "main.js": "/mac-validator/static/js/main.887ab5af.js",
+    "static/media/regex.PNG": "/mac-validator/static/media/regex.ae7a44d523d06ab945b2.PNG",
     "index.html": "/mac-validator/index.html",
-    "main.a397d475.css.map": "/mac-validator/static/css/main.a397d475.css.map",
-    "main.fb378db1.js.map": "/mac-validator/static/js/main.fb378db1.js.map"
+    "main.7bf9a07d.css.map": "/mac-validator/static/css/main.7bf9a07d.css.map",
+    "main.887ab5af.js.map": "/mac-validator/static/js/main.887ab5af.js.map"
   },
   "entrypoints": [
-    "static/css/main.a397d475.css",
-    "static/js/main.fb378db1.js"
+    "static/css/main.7bf9a07d.css",
+    "static/js/main.887ab5af.js"
   ]
 }
