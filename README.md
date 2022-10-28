@@ -3,6 +3,8 @@
 ## About the tool
 MAC Address Validator Tool searches your MAC Address or OUI in mac address vendor database. The MAC Address vendor database consists of a list of mac addresses of all devices manufactured till date. Finding the mac address from this database tells us which manufacturer originally manufactured this device and what is the prefix, postfix of a given mac address, moreover it tells us what country was this device manufactured. All this information is useful if you want to verify the generated mac address with the original vendor of this device in OUI vendor database.
 
+[Go to the live tool](https://darshan-k-s.github.io/mac-validator/)
+
 [How to find your MAC address](https://www.cmu.edu/computing/services/endpoint/network-access/mac-address.html)?
 
 ![successful run gif](https://raw.githubusercontent.com/darshan-k-s/mac-validator/main/src/assets/run.gif)
