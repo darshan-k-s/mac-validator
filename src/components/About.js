@@ -77,6 +77,10 @@ function About(){
               is important as the MAC address vendor database is protected and not available to the general public. They enable us to use the database 
               with an interface that comes with a price. 
               <br/>
+              <a href="https://gist.githubusercontent.com/aallan/b4bb86db86079509e6159810ae9bd3e4/raw/846ae1b646ab0f4d646af9115e47365f4118e5f6/mac-vendor.txt" target="_blank"
+              style={{fontSize:"inherit", padding:"4px", color: "#1774ff"}}>
+              List of OUI and vendors.
+              </a>
 
             </li>
           </ol>  

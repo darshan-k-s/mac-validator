@@ -35,6 +35,7 @@ The validatior has 2 stages of address validation.
 
 2. After the format is right, we make an API call to [macaddress.io](https://macaddress.io/api). They provide the service of an interface to a mac address database for all devices till date, and is configured to lookup the details of the mac address entered. If the address is valid and exists, we get the manufacturer and device information. The API used is important as the MAC address vendor database is protected and not available to the general public. They enable us to use the database with an interface that comes with a price.
 
+    [List of OUI and vendors](https://gist.githubusercontent.com/aallan/b4bb86db86079509e6159810ae9bd3e4/raw/846ae1b646ab0f4d646af9115e47365f4118e5f6/mac-vendor.txt).
 
 ![not found result](https://raw.githubusercontent.com/darshan-k-s/mac-validator/main/src/assets/errorCapture.PNG)
 
