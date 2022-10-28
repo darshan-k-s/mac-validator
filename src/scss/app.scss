@@ -14,6 +14,9 @@
     }
     .ant-input-search{
         width: 40%;
+        @media only screen and (max-width: 700px) {
+            width: 96% !important;
+        }
     }
 
     .details{
