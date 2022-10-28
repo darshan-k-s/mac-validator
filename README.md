@@ -5,7 +5,8 @@ MAC Address Validator Tool searches your MAC Address or OUI in mac address vendo
 
 [How to find your MAC address](https://www.cmu.edu/computing/services/endpoint/network-access/mac-address.html)?
 
-![successful run gif]()
+![successful run gif](https://raw.githubusercontent.com/darshan-k-s/mac-validator/main/src/assets/run.gif)
+
 
 ---
 
@@ -33,7 +34,7 @@ The validatior has 2 stages of address validation.
 2. After the format is right, we make an API call to [macaddress.io](https://macaddress.io/api). They provide the service of an interface to a mac address database for all devices till date, and is configured to lookup the details of the mac address entered. If the address is valid and exists, we get the manufacturer and device information. The API used is important as the MAC address vendor database is protected and not available to the general public. They enable us to use the database with an interface that comes with a price.
 
 
-![not found result]()
+![not found result](https://raw.githubusercontent.com/darshan-k-s/mac-validator/main/src/assets/errorCapture.PNG)
 
 ---
 
